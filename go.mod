@@ -5,7 +5,7 @@ go 1.23
 require (
 	github.com/bytedance/sonic v1.12.1
 	github.com/gabriel-vasile/mimetype v1.4.5
-	github.com/golang-module/carbon/v2 v2.3.12
+	github.com/golang-module/carbon/v2 v2.6.7
 	github.com/golang-module/dongle v0.2.8
 	github.com/google/uuid v1.6.0
 	github.com/imroc/req/v3 v3.48.0
@@ -16,7 +16,7 @@ require (
 	github.com/segmentio/ksuid v1.0.4
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/speps/go-hashids v2.0.0+incompatible
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569
 	github.com/vmihailenco/msgpack/v5 v5.4.1
 	go.opentelemetry.io/otel v1.29.0
@@ -37,6 +37,7 @@ require (
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
+	github.com/dromara/carbon/v2 v2.6.7 // indirect
 	github.com/emmansun/gmsm v0.26.1 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect

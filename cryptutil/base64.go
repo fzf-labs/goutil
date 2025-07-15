@@ -1,7 +1,7 @@
 package cryptutil
 
 import (
-	"github.com/golang-module/dongle"
+	"github.com/dromara/dongle"
 )
 
 // Base64Encode 使用 base64 编码对字符串进行编码

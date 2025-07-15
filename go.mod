@@ -4,9 +4,8 @@ go 1.23
 
 require (
 	github.com/bytedance/sonic v1.12.1
+	github.com/dromara/dongle v1.0.1
 	github.com/gabriel-vasile/mimetype v1.4.5
-	github.com/golang-module/carbon/v2 v2.6.7
-	github.com/golang-module/dongle v0.2.8
 	github.com/google/uuid v1.6.0
 	github.com/imroc/req/v3 v3.48.0
 	github.com/jinzhu/copier v0.4.0
@@ -37,7 +36,6 @@ require (
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
-	github.com/dromara/carbon/v2 v2.6.7 // indirect
 	github.com/emmansun/gmsm v0.26.1 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect

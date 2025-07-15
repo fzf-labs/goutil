@@ -8,7 +8,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/golang-module/dongle"
+	"github.com/dromara/dongle"
 )
 
 // Md5ToHex 返回字符串的 md5 值，并转换为十六进制字符串

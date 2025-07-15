@@ -1,7 +1,7 @@
 package cryptutil
 
 import (
-	"github.com/golang-module/dongle"
+	"github.com/dromara/dongle"
 	"golang.org/x/crypto/bcrypt"
 )
 

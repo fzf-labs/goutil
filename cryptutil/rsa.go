@@ -1,8 +1,8 @@
 package cryptutil
 
 import (
-	"github.com/golang-module/dongle"
-	"github.com/golang-module/dongle/openssl"
+	"github.com/dromara/dongle"
+	"github.com/dromara/dongle/openssl"
 )
 
 // defines key format enum type.

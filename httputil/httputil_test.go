@@ -18,3 +18,13 @@ func TestNewClient(t *testing.T) {
 	time.Sleep(time.Second * 10)
 	assert.Equal(t, nil, err)
 }
+
+func TestNewDefaultClient(t *testing.T) {
+	ctx := context.Background()
+	client := NewDefaultClient()
+	response, err := client.R().SetContext(ctx).Post("http://www.baidu.com")
+	fmt.Println(response.Status)
+	fmt.Println(err)
+	time.Sleep(time.Second * 10)
+	assert.Equal(t, nil, err)
+}

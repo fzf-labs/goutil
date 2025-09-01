@@ -7,9 +7,8 @@ import (
 	"go.opentelemetry.io/otel/trace"
 )
 
-// SetTracer 设置链路追踪。
-func (c *Client) SetTracer(tracer trace.Tracer) {
-	c.WrapRoundTripFunc(func(rt req.RoundTripper) req.RoundTripFunc {
+func Tracer(tracer trace.Tracer) func(rt req.RoundTripper) req.RoundTripFunc {
+	return func(rt req.RoundTripper) req.RoundTripFunc {
 		return func(req *req.Request) (resp *req.Response, err error) {
 			_, span := tracer.Start(req.Context(), req.URL.Path)
 			defer span.End()
@@ -38,5 +37,5 @@ func (c *Client) SetTracer(tracer trace.Tracer) {
 			}
 			return
 		}
-	})
+	}
 }

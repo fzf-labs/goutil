@@ -5,10 +5,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/jinzhu/copier"
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"gorm.io/gorm"
-
-	"github.com/jinzhu/copier"
 )
 
 // Copy copier的封装,包含字段映射
